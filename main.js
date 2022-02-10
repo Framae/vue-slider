@@ -33,15 +33,17 @@ const app = new Vue (
         },
         methods: {
             previous() {
+                console.log(this, this.onDisplay);
                 if (this.onDisplay == 0) {
-                    this.onDisplay = this.items.lenght - 1;
+                    this.onDisplay = this.items.length - 1;
                 } else {
                     this.onDisplay--
                 }
+                
             },
 
             next() {
-                if (this.onDisplay == this.items.lenght - 1) {
+                if (this.onDisplay == this.items.length - 1) {
                     this.onDisplay = 0;
                 } else {
                         this.onDisplay++;
