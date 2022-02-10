@@ -33,7 +33,6 @@ const app = new Vue (
         },
         methods: {
             previous() {
-                console.log(this, this.onDisplay);
                 if (this.onDisplay == 0) {
                     this.onDisplay = this.items.length - 1;
                 } else {
