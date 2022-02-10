@@ -29,7 +29,7 @@ const app = new Vue (
                             text: 'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam.'
                         }
                     ],
-            onDisplay: 0       
+            onDisplay: 0,       
         },
         methods: {
             previous() {
